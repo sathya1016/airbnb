@@ -8,6 +8,7 @@ function App() {
         <li>Home</li>
         <li>Signup</li>
         <li>Login</li>
+        <li>hello</li>
       </ul>
     </div>
   );
