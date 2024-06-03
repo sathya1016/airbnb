@@ -58,6 +58,29 @@ const HtmlTags = () => {
           <img src="/src/Sathyanarayana Passport photo.jpeg" />
         </a>
       </h3>
+
+      <div>
+        <table>
+          <th>
+            Table head
+            <tr>
+              <td>data1</td>
+              <td>data4</td>
+            </tr>
+            <tr>
+              <td>data1</td>
+              <td>data5</td>
+            </tr>
+            <tr>
+              <td>data1</td>
+              <td>data6</td>
+            </tr>
+          </th>
+        </table>
+      </div>
+      <form>
+        <input type="button" /> Enter ur number
+      </form>
     </div>
   );
 };
