@@ -31,6 +31,33 @@ const HtmlTags = () => {
       <sub>sub tag</sub>
       <div>Div tag is block element occupies entire width of screen</div>
       <span>span is inline element occupies only content of the element</span>
+
+      <section>
+        {/* unordered list */}
+        <ul type="square">
+          total three types sqaure,disc,circle
+          <li>Orange</li>
+          <li>Apple</li>
+        </ul>
+        <ul></ul>
+        {/* ordered list */}
+        <ol type="i">
+          total four types numbers,roman number, small and capital alphabets
+          <li>One</li>
+          <li>Two</li>
+        </ol>
+        {/* description list  */}
+        <dl>
+          <dt>Hello</dt>
+          <dd>sdheferiufheriufhuiehgeriufheiuarfhuierh</dd>
+        </dl>
+      </section>
+      <h3>
+        <a href="/src/App.js">
+          anchor tag with link
+          <img src="/src/Sathyanarayana Passport photo.jpeg" />
+        </a>
+      </h3>
     </div>
   );
 };
