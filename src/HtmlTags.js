@@ -19,6 +19,18 @@ const HtmlTags = () => {
           Perferendis vero aut incidunt quaerat.
         </p>
       </section>
+      <p>paragraph tag</p>
+      <small>small font tag</small>
+      <br />
+      <em>em tag</em>
+      <br />
+      <i>i tag</i>
+      <br />
+      <sup>sup tag</sup>
+      <strong>strong font tag</strong>
+      <sub>sub tag</sub>
+      <div>Div tag is block element occupies entire width of screen</div>
+      <span>span is inline element occupies only content of the element</span>
     </div>
   );
 };
