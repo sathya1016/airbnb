@@ -87,6 +87,27 @@ const HtmlTags = () => {
           <option value="TATA">Option3</option>
         </select>
       </form>
+      <div>
+        <audio controls>
+          <source
+            src="[iSongs.info] 01 - Gam Gam Ganesha Motion Poster Music.mp3"
+            type="audio/mp3"
+          />
+        </audio>
+        <video controls>
+          <source
+            src="./Raghunandana (HanuMan) 1080p-(Teluguvideos.in).mp4"
+            type="video/mp4"
+          />
+        </video>
+        <picture>
+          <source
+            media="(min-width:650px)"
+            srcSet="./Sathyanarayana Passport photo.jpeg"
+          />
+          <img src="./Sathyanarayana Passport photo.jpeg" />
+        </picture>
+      </div>
     </div>
   );
 };
