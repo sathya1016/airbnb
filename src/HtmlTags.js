@@ -79,7 +79,13 @@ const HtmlTags = () => {
         </table>
       </div>
       <form>
-        <input type="button" /> Enter ur number
+        <input type="checkbox" id="bike" name="bike" value="bike" />
+        <label for="bike">I have bike </label>
+        <select name="cars" id="cars">
+          <option value="ferrari">Option1</option>{" "}
+          <option value="BWM">Option2</option>
+          <option value="TATA">Option3</option>
+        </select>
       </form>
     </div>
   );
